@@ -1,4 +1,4 @@
-# Enterprise Active Directory Lab & Administration Environment
+# Enterprise Active Directory Lab & Administration
 
 A dedicated enterprise Active Directory environment built to simulate real-world Windows domain administration, identity management, Group Policy enforcement, PowerShell automation, and Help Desk operations.
 
