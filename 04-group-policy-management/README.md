@@ -1,4 +1,4 @@
-# Phase 3: Group Policy Management & Security Baseline
+# Phase 4: Group Policy Management & Security Baseline
 
 This section details the custom Group Policy Objects (GPOs) configured to enforce security baselines and advanced security auditing across the domain.
 
