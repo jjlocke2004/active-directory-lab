@@ -1,4 +1,4 @@
-# Phase 2: Organizational Unit (OU) & RBAC Design
+# Phase 3: Organizational Unit (OU) & RBAC Design
 
 This section documents the Active Directory Organizational Unit (OU) structure, provisioned departmental user accounts, and Role-Based Access Control (RBAC) security groups.
 
