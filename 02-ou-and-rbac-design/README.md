@@ -22,3 +22,18 @@ corp.local
     ├── Groups
     └── Workstations
 ```
+## Identity & Group Management
+
+**Security Groups Created:**
+
+- IT-Staff — Members: IT Department personnel.
+
+- Finance-Users — Members: Finance team members.
+
+- HR-Users — Members: HR team members.
+
+- HelpDesk-Admins — Delegated administration accounts for daily tasks.
+  
+## Provisioned Users
+
+User accounts were generated across each department with standard attributes (First/Last Name, UPN, Department attribute) and assigned to their respective security groups.
