@@ -37,7 +37,7 @@ Configured via `Computer Configuration → Policies → Windows Settings → Sec
 ### 3. Restrict Local Admin Rights
 Removes standard domain users from the local Administrators group on domain-joined workstations, linked at the `SOCLAB Computers` OU.
 
-[!Restrict Local Admin GPO Settings](images/restrict-local-admin-settings.png)
+![Restrict Local Admin GPO Settings](images/restrict-local-admin-settings.png)
 
 ---
 
