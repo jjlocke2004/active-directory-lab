@@ -15,7 +15,7 @@ This environment serves as the core **Identity & Infrastructure Layer** designed
 | Hostname | Role / Service | OS | IP Address | Subnet |
 | :--- | :--- | :--- | :--- | :--- |
 | **DC01** | Primary Domain Controller (AD DS, DNS, DHCP) | Windows Server 2025 | `192.168.100.7` | `/24` |
-| **WKSTN01** | Domain-Joined Enterprise Workstation | Windows 11 Enterprise | `192.168.100.50` | `/24` |
+| **DESKTOP-O3IVBE1** | Domain-Joined Enterprise Workstation | Windows 10 Enterprise | `192.168.100.50` | `/24` |
 
 ---
 
