@@ -6,18 +6,20 @@ This document covers the initial deployment of the core domain controller and do
 
 * **Operating System:** Windows Server 2025 (Desktop Experience)
 * **Domain Controller Name:** `DC01`
-* **Domain Name:** `corp.local`
-* **Static IP:** `192.168.10.10/24`
-* **Preferred DNS:** `127.0.0.1`
+* **Domain Name:** `soclab.local`
+* **Static IP:** `192.168.100.7/24`
+* **Preferred DNS:** `127.0.0.1 (192.168.100.7)`
 
 ---
 
 ## Deployment Summary
 
-1. **Server Deployment:** Installed Windows Server 2025 VM with static IP configuration (`192.168.10.10`).
-2. **AD DS Promotion:** Installed Active Directory Domain Services and DNS server roles. Promoted server as the root Domain Controller for `corp.local`.
-3. **Workstation Integration:** Installed Windows 11 Enterprise (`WKSTN01`), pointed preferred DNS to `192.168.10.10`, and joined the machine to the `corp.local` domain.
-
+1. **Server Deployment:** Installed Windows Server 2025 VM with static IP configuration (`192.168.100.7`).
+   ![DC01 Network Configuration](images/dc01-network-config.png)
+2. **AD DS Promotion:** Installed Active Directory Domain Services and DNS server roles. Promoted server as the root Domain Controller for `soclab.local`.
+   ![DC01 Server Manager Dashboard](images/dc01-server-manager.png)
+3. **Workstation Integration:** Installed Windows 10 Enterprise (`DESKTOP-O3IVBE1`), pointed preferred DNS to `192.168.100.7`, and joined the machine to the `soclab.local` domain.
+   ![Client Domain Join Proof](images/client-domain-join-proof.png)
 ---
 
 ## Verification
