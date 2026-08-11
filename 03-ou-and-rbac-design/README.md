@@ -6,7 +6,7 @@ This section documents the Active Directory Organizational Unit (OU) structure, 
 
 ## Organizational Unit Structure
 
-To move away from default flat containers, an enterprise OU structure was implemented under `corp.local`:
+To move away from default flat containers, an enterprise OU structure was implemented under `soclab.local`:
 
 ```text
 corp.local
