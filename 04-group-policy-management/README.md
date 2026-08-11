@@ -14,9 +14,7 @@ This section details the custom Group Policy Objects (GPOs) configured to enforc
 | `SOCLab - Audit Policy` | Enables Advanced Audit Policy logging (Logon, Account Management, Process Creation) | *(confirm link target)* |
 | `SOCLab - Restrict Local Admin` | Restricts local administrator rights on workstations | `SOCLAB Computers` OU |
 
-![Group Policy Object List](images/gpo-list.png)
-
-![Group Policy Object Links](images/gpo-links.png)
+![Group Policy Object List and Links](images/gpo-list-and-links.png)
 
 ---
 
