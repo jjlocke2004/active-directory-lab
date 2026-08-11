@@ -30,9 +30,9 @@ soclab.local
 
 **Security groups (`SOCLAB Groups` OU):**
 - `IT-Staff` — IT department personnel
-- `Finance-Users` — Finance team members
-- `HR-Users` — HR team members
-- `HelpDesk-Admins` — delegated administration account(s) for day-to-day helpdesk tasks
+- `Finance Staff` — Finance team members
+- `HR Staff` — HR team members
+- `Helpdesk Staffs` — delegated administration account(s) for day-to-day helpdesk tasks
 
 ![Security Groups](images/security-groups-list.png)
 
@@ -50,7 +50,7 @@ User accounts were generated across each department with standard attributes (Fi
 
 ## Delegated Administration
 
-`Help Desk Adminss` was granted delegated permissions to perform routine account tasks (password resets, unlocks) without full Domain Admin rights.
+`Help Desk Staff` was granted delegated permissions to perform routine account tasks (password resets, unlocks) without full Domain Admin rights.
 
 ---
 
@@ -58,4 +58,4 @@ User accounts were generated across each department with standard attributes (Fi
 
 * Confirmed OU tree matches the structure above via `dsa.msc`.
 * Confirmed each security group contains the expected department members.
-* Confirmed `HelpDesk-Admins` can perform delegated actions without Domain Admin membership.
+* Confirmed `Helpdesk Staff` can perform delegated actions without Domain Admin membership.
