@@ -33,8 +33,14 @@ This environment serves as the core **Identity & Infrastructure Layer** designed
 ## Repository Structure
 
 [01 - Baseline Infrastructure](./01-baseline-infrastructure/README.md): Windows Server Domain Controller promotion and domain join setup.
+
 [02 - DNS & DHCP Configuration](./02-dns-and-dhcp/README.md): Name resolution, DHCP role authorization, and scope design.
+
 [03 - OU & RBAC Architecture](./03-ou-and-rbac-design/README.md): Departmental OU structure, user accounts, and administrative roles.
+
 [04 - Group Policy Management](./04-group-policy-management/README.md): Security baselines and Advanced Audit Policy telemetry logging.
+
 [05 - Automation & Scripting](./05-automation-and-scripting/README.md): *(Planned)* PowerShell administrative automation.
+
 [06 - Helpdesk Tickets](./06-helpdesk-tickets/README.md): *(Planned)* Simulated IT administration ticket logs.
+
