@@ -1,33 +1,53 @@
 # Phase 4: Group Policy Management & Security Baseline
 
-This section details the custom Group Policy Objects (GPOs) configured to enforce security baselines and advanced security auditing across the domain.
+This section details the custom Group Policy Objects (GPOs) configured to enforce security baselines and advanced security auditing across `soclab.local`.
 
 ---
 
-## Applied Policies
+## Deployed GPOs
 
-### 1. Default Domain Password Policy
-* Enforces password length, complexity, and account lockout parameters across all user accounts in `corp.local`.
+| GPO Name | Purpose | Linked To |
+| :--- | :--- | :--- |
+| `Default Domain Policy` | Baseline domain-wide password/account policy | Domain root |
+| `Default Domain Controllers Policy` | Built-in DC security baseline | Domain Controllers OU |
+| `SOCLab - Account Lockout Policy` | Enforces account lockout thresholds domain-wide | *(confirm link target)* |
+| `SOCLab - Audit Policy` | Enables Advanced Audit Policy logging (Logon, Account Management, Process Creation) | *(confirm link target)* |
+| `SOCLab - Restrict Local Admin` | Restricts local administrator rights on workstations | `SOCLAB Computers` OU |
 
-### 2. Advanced Security Audit Policy GPO
-Configured via `Computer Configuration -> Policies -> Windows Settings -> Security Settings -> Advanced Audit Policy Configuration`:
+![Group Policy Object List](images/gpo-list.png)
 
-* **Logon/Logoff:** Audit Logon (Success/Failure), Audit Account Lockout (Success).
-* **Account Management:** Audit User Account Management (Success/Failure), Audit Security Group Management (Success).
-* **Detailed Tracking:** Audit Process Creation (Success) — Enforced command-line process logging via GPO setting:
-  * *Administrative Templates -> System -> Audit Process Creation -> Include command line in process creation events*.
+![Group Policy Object Links](images/gpo-links.png)
+
+---
+
+## Applied Policy Settings
+
+### 1. Default Domain Policy 
+Enforces password length, complexity, and account lockout parameters across all user accounts.
+
+![Default Domain Policy GPO Settings](images/default-domain-settings.png)
+
+
+### 2. Advanced Security Audit Policy
+Configured via `Computer Configuration → Policies → Windows Settings → Security Settings → Advanced Audit Policy Configuration`:
+* **Logon/Logoff:** Audit Logon (Success/Failure), Audit Account Lockout (Success)
+* **Account Management:** Audit User Account Management (Success/Failure), Audit Security Group Management (Success)
+* **Detailed Tracking:** Audit Process Creation (Success), plus *Include command line in process creation events* (Administrative Templates → System → Audit Process Creation)
+
+![Audit Policy GPO Settings](images/audit-policy-settings.png)
+
+### 3. Restrict Local Admin Rights
+Removes standard domain users from the local Administrators group on domain-joined workstations, linked at the `SOCLAB Computers` OU.
+
+[!Restrict Local Admin GPO Settings](images/restrict-local-admin-settings.png)
 
 ---
 
 ## Verification & Event Generation
 
-Auditing policies were validated on `DC01` and `WKSTN01` by reviewing Event Viewer logs:
-* **Event ID 4624:** Successful User Account Logon.
-* **Event ID 4688:** Process Creation (verifying process command-line arguments are captured).
-* **Event ID 4740:** User Account Lockout.
+Auditing policies were validated on `DC01` by reviewing Event Viewer logs after running `whoami` from an admin session:
 
-## Screenshots (ADD LATER)
+* **Event ID 4688:** Process Creation, confirmed with full command-line arguments captured (`whoami.exe` run by `SOCLAB\itadmin`).
+![Event 4688 Process Creation Audit](images/dc01-event-4688-process-creation-audit.png)
 
-    gpmc-audit-policy.png: Group Policy Management Console (gpmc.msc) showing your Audit Policy settings details tab.
-
-    event-viewer-4688.png: Event Viewer (security.evtx) showing Event ID 4688 with command-line auditing visible in the log details.
+![gpresult-client](images/gpresult-client.png)
