@@ -29,10 +29,13 @@ soclab.local
 ## Identity & Group Management
 
 **Security groups (`SOCLAB Groups` OU):**
-- `IT-Staff` — IT department personnel
+- `File Share - Finance` - Share folder for Finances
 - `Finance Staff` — Finance team members
+- `Helpdesk Staff` — delegated administration account(s) for day-to-day helpdesk tasks
 - `HR Staff` — HR team members
-- `Helpdesk Staffs` — delegated administration account(s) for day-to-day helpdesk tasks
+- `IT-Staff` — IT department personnel
+- `Management-Staff` - Management team members
+- `VPN Users`
 
 ![Security Groups](images/security-groups-list.png)
 
@@ -50,7 +53,7 @@ User accounts were generated across each department with standard attributes (Fi
 
 ## Delegated Administration
 
-`Help Desk Staff` was granted delegated permissions to perform routine account tasks (password resets, unlocks) without full Domain Admin rights.
+`Helpdesk Staff` was granted delegated permissions to perform routine account tasks (password resets, unlocks) without full Domain Admin rights.
 
 ---
 
