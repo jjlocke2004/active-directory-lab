@@ -10,7 +10,7 @@ in line with the delegated administration model set up in [Phase 3](../03-ou-and
 | Script | Purpose | Requires Domain Admin? |
 |---|---|---|
 | [`ADUserAdd.ps1`](scripts/ADUserAdd.ps1) | Creates a single new hire account, creates temp pass, places them in the correct department ou, and adds them to the matching security group | No, delegated rights on `SOCLAB Users` OU |
-| `ADUserBulkAdd.ps1` - in-progress | Ingests a CSV of new hires creates accounts, temp passes, places them in correct department ou and adds them to the matching security group | No, delegated rights on `SOCLAB Users` OU |
+| `ADUserBulkAdd.ps1` - in-prog | Ingests a CSV of new hires creates accounts, temp passes, places them in correct department ou and adds them to the matching security group | No, delegated rights on `SOCLAB Users` OU |
 | `ADUserRemove.ps1` - planned | Disables a terminated employee's account, strips all group membership, resets the password, and moves the object to a `Disabled Users` holding OU | Yes |
 
 ## ADUserAdd.ps1
