@@ -13,7 +13,8 @@ in line with the delegated administration model set up in [Phase 3](../03-ou-and
 |---|---|---|
 | [`ADUserAdd.ps1`](scripts/ADUserAdd.ps1) | Creates a single new hire account, creates temp pass, places them in the correct department ou, and adds them to the matching security group | No, delegated rights on `SOCLAB Users` OU |
 | [`ADUserBulkAdd.ps1`](scripts/ADUserBulkAdd.ps1) | Ingests a CSV of new hires creates accounts, temp passes, places them in correct department ou and adds them to the matching security group | No, delegated rights on `SOCLAB Users` OU |
-| `ADUserRemove.ps1` - planned | Disables a terminated employee's account, strips all group membership, resets the password, and moves the object to a `Disabled Users` holding OU | Yes |
+| [`ADUserRemove.ps1`](scripts/ADUserRemove.ps1) | Disables a terminated employee's account, strips all group membership, resets the password, and moves the object to a `Disabled Users` holding OU | Yes |
+| `ADAccountLockout.ps1` - planned | 
 
 ---
 
@@ -60,3 +61,22 @@ Test:
 *Here I confirm the log file was created and containing correct info*
 
 ![Confirm Log File Creation](images/confirm-creation-of-log-file.png)
+
+---
+
+## ADUserRemove.ps1
+
+Prompts for Account Name - `firstname.lastname`
+
+```powershell
+.\ADUserRemove.ps1 -SamAccountName jonathon.locke
+```
+
+Test:
+*Here I create a test account using `ADUserAdd.ps1` and verify it was created in Active Directory Users and Computers*
+
+![Creating Test User](images/creating-test-user.png)
+
+*Then I test the user remove script and verify it worked and moved the account to Disabled Users OU*
+
+![Testing ADUserRemove.ps1](images/testing-ADUserRemove.png)
