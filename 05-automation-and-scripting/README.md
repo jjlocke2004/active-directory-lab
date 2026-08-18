@@ -41,6 +41,7 @@ Test:
 ---
 
 ## ADUserBulkAdd.ps1
+[`ADUserBulkAdd.ps1`](scripts/ADUserBulkAdd.ps1)
 
 Prompts for an input of the CSV path 
 
@@ -69,6 +70,7 @@ The log file that was created:  [onboarding-2026-08-18_134527.log](onboarding-20
 ---
 
 ## ADUserRemove.ps1
+[`ADUserRemove.ps1`](scripts/ADUserRemove.ps1) 
 
 Prompts for Account Name - `firstname.lastname`
 
