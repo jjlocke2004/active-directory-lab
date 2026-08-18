@@ -106,7 +106,7 @@ Prompts for Account Name such as `test.user`
 
 ### Testing the Script
 Test:
-*I created the test user and intentionally lockout the account by using `runas /user:soclab\test.user cmd` and using the wrong password until it hits the threshold of my Domain-Wide Password Policy of 5 incorrect attempts*
+*I created the test user and intentionally locked out the account by using `runas /user:soclab\test.user cmd` and using the wrong password until I hit the threshold of my Domain-Wide Password Policy of 5 incorrect attempts*
 
 ![Locking Out the Test User](images/locking-out-test-user.png)
 
