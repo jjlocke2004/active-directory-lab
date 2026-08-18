@@ -50,10 +50,13 @@ To run in one command:
 
 Test:
 *Here I run the script*
+
 ![Running ADUserBulkAdd.ps1](images/running-ad-bulk-user-add.png)
 
 *Here I verify the users got created and added to the right groups*
+
 ![Verify New Users and Groups](images/verify-new-users-and-groups.png)
 
 *Here I confirm the log file was created and containing correct info*
+
 ![Confirm Log File Creation](images/confirm-creation-of-log-file.png)
