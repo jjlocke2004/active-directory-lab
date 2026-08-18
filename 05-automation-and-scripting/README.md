@@ -50,6 +50,8 @@ To run in one command:
 ```
 
 Test:
+CSV File used: [test-new-hires.csv](test-new-hires.csv)
+
 *Here I run the script*
 
 ![Running ADUserBulkAdd.ps1](images/running-ad-bulk-user-add.png)
@@ -61,6 +63,8 @@ Test:
 *Here I confirm the log file was created and containing correct info*
 
 ![Confirm Log File Creation](images/confirm-creation-of-log-file.png)
+
+The log file that was created:  [onboarding-2026-08-18_134527.log](onboarding-2026-08-18_134527.log)
 
 ---
 
