@@ -1,0 +1,8 @@
+[2026-08-18 13:45:27] CREATED: John Doe (john.doe) -> OU=IT, Group=IT-Staff
+[2026-08-18 13:45:27] CREATED: Jane Smith (jane.smith) -> OU=HR, Group=HR-Staff
+[2026-08-18 13:45:27] CREATED: Alex Johnson (alex.johnson) -> OU=Finance, Group=Finance-Staff
+[2026-08-18 13:45:27] ADDED: alex.johnson to 'Finance Share Folder' security group
+[2026-08-18 13:45:28] CREATED: Emily Davis (emily.davis) -> OU=Management, Group=Management Staff
+[2026-08-18 13:45:28] CREATED: Michael Brown (michael.brown) -> OU=IT, Group=IT-Staff
+[2026-08-18 13:45:28] ADDED: michael.brown to 'Helpdesk' security group
+[2026-08-18 13:45:28] Onboarding run complete. Log written to .\Logs
