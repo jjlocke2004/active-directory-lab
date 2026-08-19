@@ -23,3 +23,13 @@ Each ticket below is worked two ways:
 | 05 | Account | "I forgot my password and don't have a way to reset it myself" |
 
 ---
+
+# Ticket 03 - Offboarding
+
+Description: HR requests immediate offboarding of Michasel Brown (IT) - termination effective today.
+
+I chose to close this ticket first due to the security implications of having a terminated employee with active access.
+
+Impact: High | Urgency: High
+
+[Ticket 03 - Offboarding](ticket-03-offboarding.md)
