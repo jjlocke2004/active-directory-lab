@@ -37,6 +37,8 @@ script will throw errors if something actually went wrong.
 *Finally I verified account is unlocked - this is what I should've done when I ran my script 
 but in my defense I essentially did when I went to relockout the account*
 
+*The error being thrown here is expected - the user needs to change their password at logon*
+
 ![Verified Account is Unlocked](images/verified-account-is-unlocked.png)
 
 ### Time Taken
