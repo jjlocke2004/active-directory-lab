@@ -74,3 +74,14 @@ The deadline of today adds urgency but its not a full outage like tickets 02 and
 Impact: Medium | Urgency: Medium-High 
 
 [Ticket 04 - File Access](ticket-04-file-access.md)
+
+---
+
+## Ticket 01 - Onboarding
+*This one I am only going to use the script for and not manually do it to test since I think we all know how much time this saves to run in one command as opposed to entering in every new hire and detail manually* 
+
+I chose to do this one last since nothing breaks if this waits a few hours. The new hires don't start 'till Monday.
+
+Impact: Low (for today) | Urgency: Low
+
+[Ticket 01 - Onboarding](ticket-01-onboarding.md)
