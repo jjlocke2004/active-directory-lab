@@ -12,10 +12,15 @@ _Not yet automated — worked manually below. Candidate for a future script (e.g
 
 ### Method 2: Manual
 
-_Steps taken — resetting password via `dsa.msc` / `Set-ADAccountPassword`, forcing change at next logon, confirming with user:_
+*First I opened Active Directory Users and Computers, right clicked on Emily Davis and pressed reset password*
 
-### Screenshots
+[Right-Click Reset Pass](images/right-click-reset-pass.png)
+
+*Then after changing the password and checking prompt for password change at next logon the password was successfully reset*
+
+[Pass Reset Confirm](images/pass-reset-confirm.png)
 
 ### Time Taken
+Manually ~2min | Script: N/A
 
-### Notes
+Manually this doesn't even take very long but would be worth automating in the future.
