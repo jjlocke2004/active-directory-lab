@@ -40,7 +40,7 @@ Open Active Directory Users and Computers. Find the user, right click disable. G
 
 *I then move the object to the Disabled Users OU*
 
-![Move to Disabled Users](move-to-disabled-users.png)
+![Move to Disabled Users](images/move-to-disabled-users.png)
 
 *Finally I verify the move took effect*
 
