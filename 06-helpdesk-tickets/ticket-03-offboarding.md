@@ -14,7 +14,7 @@ Using `ADUserRemove.ps1`.
 .\ADUserRemove.ps1 -SamAccountName "michael.brown"
 ```
 
-*I checked that the user was there - normally wouldn't do this mostly just for proof for the script.*
+*I checked that the user was there*
 
 ![Verifying account is there](images/verifying-account-is-there.png)
 
