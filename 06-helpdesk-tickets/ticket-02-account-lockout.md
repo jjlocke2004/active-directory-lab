@@ -6,6 +6,8 @@
 
 **Time constraint:** ~10min
 
+---
+
 ### Method 1: Scripted
 
 Using `ADAccountLockout.ps1`.
@@ -24,6 +26,8 @@ Using `ADAccountLockout.ps1`.
 I will say I didn't double check that the account was unlocked - normally good hygiene to ensure but usually the 
 script will throw errors if something actually went wrong.
 
+---
+
 ### Method 2: Manual
 
 *I then re-locked-out the account and checked if it was locked out*
@@ -40,6 +44,8 @@ but in my defense I essentially did when I went to relockout the account*
 *The error being thrown here is expected - the user needs to change their password at logon*
 
 ![Verified Account is Unlocked](images/verified-account-is-unlocked.png)
+
+---
 
 ### Time Taken
 Manually ~3min | Script ~20sec
