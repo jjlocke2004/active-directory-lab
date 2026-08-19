@@ -49,7 +49,7 @@ Open Active Directory Users and Computers. Find the user, right click disable. G
 ---
 
 ### Time Taken
-~10min
+~5min manually | ~1min using the script 
 
 Most of the time was spent booting up the VM collecting screenshots and verifying, some of that wouldn't be necessary in a production environment. 
 
