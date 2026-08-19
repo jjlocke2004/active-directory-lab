@@ -2,6 +2,8 @@
 
 **Description:** "I keep typing my password right and it says my account is locked, I can't get into my computer."
 
+**Affected User**: Jennifer Walsh
+
 **Time constraint:** ~10min
 
 ### Method 1: Scripted
