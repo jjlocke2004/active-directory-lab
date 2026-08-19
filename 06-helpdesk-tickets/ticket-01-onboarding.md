@@ -1,7 +1,5 @@
 ## Ticket 01 — Onboarding
 
-[#ticket-01--onboarding](#ticket-01--onboarding)
-
 **Description:** HR requests AD accounts be created for new hires starting Monday.
 
 **Time constraint:** Mine - 5min | Realistically have until end of week (before Monday)
