@@ -8,10 +8,10 @@
 
 ### Method 1: Scripted
 
-Using `ADUserOffboard.ps1`.
+Using `ADUserRemove.ps1`.
 
 ```powershell
-.\ADUserOffboard.ps1 -SamAccountName "michael.brown"
+.\ADUserRemove.ps1 -SamAccountName "michael.brown"
 ```
 
 *I checked that the user was there - normally wouldn't do this mostly just for proof for the script.*
