@@ -1,4 +1,4 @@
-# ## Ticket 02 — Account Lockout
+# Ticket 02 — Account Lockout
 
 **Description:** "I keep typing my password right and it says my account is locked, I can't get into my computer."
 
