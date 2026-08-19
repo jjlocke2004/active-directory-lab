@@ -11,8 +11,8 @@ in line with the delegated administration model set up in [Phase 3](../03-ou-and
 ## Scripts
 | Script | Purpose | Requires Domain Admin? |
 |---|---|---|
-| [`ADUserAdd.ps1`](scripts/ADUserAdd.ps1) | Creates a single new hire account, creates temp pass, places them in the correct department ou, and adds them to the matching security group | Yes - eventually delegating to `Helpdesk Staff`|
-| [`ADUserBulkAdd.ps1`](scripts/ADUserBulkAdd.ps1) | Ingests a CSV of new hires creates accounts, temp passes, places them in correct department ou and adds them to the matching security group | Yes - eventually delegating to `Helpdesk Staff` |
+| [`ADUserAdd.ps1`](scripts/ADUserAdd.ps1) | Creates a single new hire account, creates temp pass, places them in the correct department ou, and adds them to the matching security group | No - delegated to `Helpdesk Staff`|
+| [`ADUserBulkAdd.ps1`](scripts/ADUserBulkAdd.ps1) | Ingests a CSV of new hires creates accounts, temp passes, places them in correct department ou and adds them to the matching security group | No - delegated to `Helpdesk Staff` |
 | [`ADUserRemove.ps1`](scripts/ADUserRemove.ps1) | Disables a terminated employee's account, strips all group membership, resets the password, and moves the object to a `Disabled Users` holding OU | Yes |
 | [`ADAccountLockout.ps1`](scripts/ADAccountLockout.ps1) | Checks if account is locked out, then unlocks locked account and returns with "Unlocking..." or returns with "Account not locked. No action." if account isn't locked | No |
 
