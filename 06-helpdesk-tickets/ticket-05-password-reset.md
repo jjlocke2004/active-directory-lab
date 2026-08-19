@@ -6,9 +6,13 @@
 
 **Time Constraint:** 5min
 
+---
+
 ### Method 1: Scripted
 
 _Not yet automated — worked manually below. Candidate for a future script (e.g. `ADUserPassReset.ps1`)._
+
+---
 
 ### Method 2: Manual
 
@@ -19,6 +23,8 @@ _Not yet automated — worked manually below. Candidate for a future script (e.g
 *Then after changing the password and checking prompt for password change at next logon the password was successfully reset*
 
 ![Pass Reset Confirm](images/pass-reset-confirm.png)
+
+---
 
 ### Time Taken
 Manually ~2min | Script: N/A
