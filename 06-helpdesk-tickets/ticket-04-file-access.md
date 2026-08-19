@@ -6,9 +6,13 @@
 
 **Time constraint:** 10min
 
+---
+
 ### Method 1: Scripted
 
 Not yet automated — worked manually below. Candidate for a future script (e.g. `ADUserGroupAdd.ps1`)._
+
+---
 
 ### Method 2: Manual
 
@@ -24,6 +28,8 @@ Alex Johnson was in the Finance Security Group but not the File share one*
 *Finally I checked the file share security group to ensure they were added.*
 
 ![Checking Members After Change](images/checking-members-after-change.png)
+
+---
 
 ### Time Taken
 Manually ~3min | Script: N/A
