@@ -2,7 +2,7 @@
 
 **Description:** HR requests immediate offboarding of Michael Brown (IT) — termination effective today. Affected user: `michael.brown`.
 
-**Time constraint:** 10min
+**Time constraint:** 20min
 
 ### Method 1: Scripted
 
