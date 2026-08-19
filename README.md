@@ -25,7 +25,7 @@ This environment serves as the core **Identity & Infrastructure Layer** designed
 - [x] **Phase 3: Organizational Unit (OU) & RBAC Architecture** — Designed departmental OU tree hierarchy (`Finance`, `HR`, `IT`, `Management`), provisioned identity accounts, and mapped Role-Based Access Control (RBAC) security groups.
 - [x] **Phase 4: Group Policy & Audit Policy Baseline** — Enforced domain-wide password complexity, account lockout rules, local admin restrictions, and enabled Advanced Security Audit Policies (Event ID 4688 process creation tracking).
 - [ ] **Phase 5: PowerShell Administration & Automation** — *(In-Progress)* Bulk user onboarding/offboarding automation and Active Directory management scripts.
-- [ ] **Phase 6: Simulated IT Help Desk Tickets** — *(Planned)* Documented operational administration scenarios (account lockouts, permission modifications, connectivity troubleshooting).
+- [ ] **Phase 6: Simulated IT Help Desk Tickets** — *(In-Progress)* Documented operational administration scenarios (account lockouts, permission modifications, connectivity troubleshooting).
 - [ ] **Phase 7: SOC Integration & Event Forwarding** — *(Planned)* Exporting Security Event log telemetry to the external [Home SOC Lab](https://github.com/jjlocke2004/home-soc-lab) environment.
 
 ---
@@ -40,7 +40,7 @@ This environment serves as the core **Identity & Infrastructure Layer** designed
 
 [04 - Group Policy Management](./04-group-policy-management/README.md): Security baselines and Advanced Audit Policy telemetry logging.
 
-[05 - Automation & Scripting](./05-automation-and-scripting/README.md): *(Planned)* PowerShell administrative automation.
+[05 - Automation & Scripting](./05-automation-and-scripting/README.md): *(In-Progress)* PowerShell administrative automation.
 
-[06 - Helpdesk Tickets](./06-helpdesk-tickets/README.md): *(Planned)* Simulated IT administration ticket logs.
+[06 - Helpdesk Tickets](./06-helpdesk-tickets/README.md): *(In-Progress)* Simulated IT administration ticket logs.
 
