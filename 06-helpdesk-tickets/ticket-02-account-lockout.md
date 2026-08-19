@@ -13,12 +13,31 @@ Using `ADAccountLockout.ps1`.
 ```powershell
 .\ADAccountLockout.ps1 -SamAccountName "<username>"
 ```
+*I first checked that account was locked out*
 
-_Walkthrough / commands run:_
+![Checking Account Lockout State](images/checking-account-is-locked-out.png)
+
+*Then I ran the script*
+
+![Running the Script](images/running-the-script.png)
+
+I will say I didn't double check that the account was unlocked - normally good hygiene to ensure but usually the 
+script will throw errors if something actually went wrong.
 
 ### Method 2: Manual
 
-_Steps taken through `dsa.msc`:_
+*I then re-locked-out the account and checked if it was locked out*
+
+![Relocked-out account](images/relockedout-the-account.png)
+
+*I then right-clicked jwalsh and press properies, went to the account tab, checked unlock account and pressed apply.*
+
+![Unlocking the Account in GUI](images/unlocking-the-account-in-gui.png)
+
+*Finally I verified account is unlocked - this is what I should've done when I ran my script 
+but in my defense I essentially did when I went to relockout the account*
+
+![Verified Account is Unlocked](images/verified-account-is-unlocked.png)
 
 ### Screenshots
 
