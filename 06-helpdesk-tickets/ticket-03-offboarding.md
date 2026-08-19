@@ -1,15 +1,15 @@
 # Ticket #03 - Offboarding
 
-**Description:** HR requests AD accounts be created for new hires starting Monday.
+**Description:** HR requests immediate offboarding of Michael Brown (IT) — termination effective today. Affected user: `michael.brown`.
 
 **Time constraint:** 10min
 
 ### Method 1: Scripted
 
-Using `ADUserAdd.ps1`.
+Using `ADUserOffboard.ps1`.
 
 ```powershell
-.\ADUserAdd.ps1
+.\ADUserOffboard.ps1 -SamAccountName "michael.brown"
 ```
 
 _Walkthrough / commands run:_
