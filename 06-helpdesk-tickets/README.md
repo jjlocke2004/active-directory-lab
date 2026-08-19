@@ -24,12 +24,26 @@ Each ticket below is worked two ways:
 
 ---
 
-# Ticket 03 - Offboarding
+##  Ticket 03 - Offboarding
 
 Description: HR requests immediate offboarding of Michasel Brown (IT) - termination effective today.
 
 I chose to close this ticket first due to the security implications of having a terminated employee with active access.
 
-Impact: High | Urgency: High
+Impact: High (security) | Urgency: Highest
 
 [Ticket 03 - Offboarding](ticket-03-offboarding.md)
+
+---
+
+## Ticket 02 - Account Lockout (Management)
+
+"I keep typing my password right and it says my account is locked, I can't get into my computer"
+
+Description: User is locked out of their account and cannot get into their computer
+
+I chose to close this ticket next because its a full work stoppage for one person, and the role/seniority does hold some factors in triage. 
+
+Impact Medium-High | Urgency: High
+
+[Ticket 02 - Account Lockout](ticket-02-account-lockout.md)
