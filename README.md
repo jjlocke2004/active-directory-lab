@@ -24,7 +24,7 @@ This environment serves as the core **Identity & Infrastructure Layer** designed
 - [x] **Phase 2: DNS & DHCP Configuration** — Configured DNS name resolution, installed and authorized DHCP Server role in Active Directory, and deployed dynamic IP scope `Corp-Workstations` (`192.168.100.50–150`).
 - [x] **Phase 3: Organizational Unit (OU) & RBAC Architecture** — Designed departmental OU tree hierarchy (`Finance`, `HR`, `IT`, `Management`), provisioned identity accounts, and mapped Role-Based Access Control (RBAC) security groups.
 - [x] **Phase 4: Group Policy & Audit Policy Baseline** — Enforced domain-wide password complexity, account lockout rules, local admin restrictions, and enabled Advanced Security Audit Policies (Event ID 4688 process creation tracking).
-- [ ] **Phase 5: PowerShell Administration & Automation** — *(Planned)* Bulk user onboarding/offboarding automation and Active Directory management scripts.
+- [ ] **Phase 5: PowerShell Administration & Automation** — *(In-Progress)* Bulk user onboarding/offboarding automation and Active Directory management scripts.
 - [ ] **Phase 6: Simulated IT Help Desk Tickets** — *(Planned)* Documented operational administration scenarios (account lockouts, permission modifications, connectivity troubleshooting).
 - [ ] **Phase 7: SOC Integration & Event Forwarding** — *(Planned)* Exporting Security Event log telemetry to the external [Home SOC Lab](https://github.com/jjlocke2004/home-soc-lab) environment.
 
