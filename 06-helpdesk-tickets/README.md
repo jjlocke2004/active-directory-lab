@@ -19,8 +19,8 @@ Each ticket below is worked two ways:
 | 01 | Onboarding | HR requests AD accounts be created for new hires starting Monday |
 | 02 | Account Lockout | "I keep typing my password right and it says my account is locked, I can't get into my computer" |
 | 03 | Offboarding | HR requests immediate offboarding of Michael Brown (IT) — termination effective today |
-| 04 | Access | "I can't get into the finance shared drive, I need it for a report due today" |
-| 05 | Account | "I forgot my password and don't have a way to reset it myself" |
+| 04 | File Access (Finance) | "I can't get into the finance shared drive, I need it for a report due today" |
+| 05 | Password Reset (HR) | "I forgot my password and don't have a way to reset it myself" |
 
 ---
 
@@ -44,6 +44,22 @@ Description: User is locked out of their account and cannot get into their compu
 
 I chose to close this ticket next because its a full work stoppage for one person, and the role/seniority does hold some factors in triage. 
 
-Impact Medium-High | Urgency: High
+Impact: Medium-High | Urgency: High
 
 [Ticket 02 - Account Lockout](ticket-02-account-lockout.md)
+
+---
+
+## Ticket 05 - Password Reset (HR)
+*This one I haven't created a script for yet so I will just being do this one manually.
+I will create a script for this later on*
+
+Description: "I forgot my password and don't have a way to reset it myself."
+
+I chose this ticket next because this is also a full work stoppage for one person. This is very close in severity to ticket #02 - the tiebreaker here is nuanced - which ticket really came first etc.
+
+Impact: Medium-High | Urgency: High
+
+[Ticket 05 - Password Reset(HR)](ticket-05-password-reset.md)
+
+---
