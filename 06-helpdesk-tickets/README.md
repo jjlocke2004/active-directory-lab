@@ -63,3 +63,14 @@ Impact: Medium-High | Urgency: High
 [Ticket 05 - Password Reset(HR)](ticket-05-password-reset.md)
 
 ---
+
+## Ticket 04 - File Access (Finance)
+*I also really haven't made a script for this specifically yet this could definitely be a good automation - checks if user is in all appropriate security groups*
+
+I chose this one second to last because it's a partial blocker, this person likely can still do some work, just not the specific report. 
+
+The deadline of today adds urgency but its not a full outage like tickets 02 and 05
+
+Impact: Medium | Urgency: Medium-High 
+
+[Ticket 04 - File Access](ticket-04-file-access.md)
