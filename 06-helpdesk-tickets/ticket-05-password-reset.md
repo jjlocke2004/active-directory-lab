@@ -14,11 +14,11 @@ _Not yet automated — worked manually below. Candidate for a future script (e.g
 
 *First I opened Active Directory Users and Computers, right clicked on Emily Davis and pressed reset password*
 
-[Right-Click Reset Pass](images/right-click-reset-pass.png)
+![Right-Click Reset Pass](images/right-click-reset-pass.png)
 
 *Then after changing the password and checking prompt for password change at next logon the password was successfully reset*
 
-[Pass Reset Confirm](images/pass-reset-confirm.png)
+![Pass Reset Confirm](images/pass-reset-confirm.png)
 
 ### Time Taken
 Manually ~2min | Script: N/A
