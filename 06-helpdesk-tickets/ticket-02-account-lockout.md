@@ -39,8 +39,8 @@ but in my defense I essentially did when I went to relockout the account*
 
 ![Verified Account is Unlocked](images/verified-account-is-unlocked.png)
 
-### Screenshots
-
 ### Time Taken
+Manually ~3min | Script ~20sec
 
-### Notes
+The script saves a lot of time here since you don't need to click through multiple tabs its one command 
+and then verify it worked with one more command.
