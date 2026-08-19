@@ -3,6 +3,8 @@ This document will cover typical helpdesk tickets seen in an IT Support environm
 
 I will set a time constraint for each ticket, and will try to work through multiple tickets within that constraint. Timestamps on commits also serve as a natural record of how long each ticket actually took.
 
+The current 5 tickets we will assume came in all at the same time and I will triage by severity + urgency.
+
 Each ticket below is worked two ways:
 
 - **Scripted** — using the relevant script from Phase 5
